@@ -123,7 +123,7 @@ if __name__ == "__main__":
             # Mostra frase atual
             cv2.putText(
                 frame,
-                f"Frase: {frase}",
+                f"Palavra: {frase}",
                 (10, 100),
                 cv2.FONT_HERSHEY_SIMPLEX,
                 1.2,
