@@ -1,0 +1,5 @@
+# Ignorar pasta de imagens que foram enviadas para o CSV (com landmarks)
+output_landmarked_images/
+training/
+venv/
+.env
