@@ -2,4 +2,5 @@
 output_landmarked_images/
 training/
 venv/
+
 .env

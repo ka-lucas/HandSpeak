@@ -122,5 +122,4 @@ docker run --rm -it   --device=/dev/video0   -e DISPLAY=$DISPLAY   -v /tmp/.X11-
 ---
 
 ## ✨ Créditos
-
 Projeto desenvolvido por Felipe Vasconcellos e Katarine Melo para reconhecimento de Libras com foco em acessibilidade e tecnologia assistiva.
