@@ -1,5 +1,3 @@
-## HandSpeak
-
 # 🤟 HandSpeak - Reconhecimento de Libras com Visão Computacional
 
 Este projeto utiliza **MediaPipe**, **scikit-learn** e **OpenCV** para detectar gestos de Libras capturados via webcam ou imagens, classificando as letras do alfabeto em tempo real.
