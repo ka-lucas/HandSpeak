@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
     libsm6 \
     libxext6 \
     libxrender-dev \
-    libgl1-mesa-glx \
+    libgl1 \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
@@ -25,4 +25,4 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Comando padrão
-CMD ["python", "src/predictors/predict_image_cam.py"]
+CMD ["python", "src/prediction/predict_image_cam.py"]

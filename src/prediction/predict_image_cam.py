@@ -34,7 +34,7 @@ LETTER_COLORS = {
 # Carregar modelo
 def load_model():
     try:
-        model_path = os.path.join("models", "random_forest_model.pkl")
+        model_path = os.path.join("models", "landmarks_classifier.pkl")
         model = joblib.load(model_path)
         return model
     except Exception as e:

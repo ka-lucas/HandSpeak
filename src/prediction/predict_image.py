@@ -26,7 +26,7 @@ ERROR_CODES = {
 # ======================
 def load_model():
     try:
-        model = joblib.load("models/random_forest_model.pkl")
+        model = joblib.load("models/landmarks_classifier.pkl")
         return model
     except Exception as e:
         print(f"❌ [{ERROR_CODES['MODEL_LOAD']}] Falha ao carregar modelo - {type(e).__name__}: {str(e)}")
